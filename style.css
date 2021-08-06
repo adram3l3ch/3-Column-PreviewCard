@@ -10,9 +10,10 @@ body {
 	font-size: 15px;
 	min-height: 100vh;
 	font-family: "Lexend Deca", sans-serif;
+	background-color: hsla(0, 0%, 100%, 0.75);
 }
 
-h2 {
+h1 {
 	font-family: "Big Shoulders Display", cursive;
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -32,7 +33,6 @@ p {
 	align-items: center;
 	justify-content: center;
 	border-radius: 5px;
-	background-color: aqua;
 	overflow: hidden;
 	color: hsl(0, 0%, 95%);
 }
@@ -102,7 +102,7 @@ button {
 	transform: translate(-50%, -20px);
 	text-align: center;
 }
-@media (min-width: 375px) {
+@media (min-width: 768px) {
 	.container {
 		flex-direction: row;
 		min-width: 1000px;
